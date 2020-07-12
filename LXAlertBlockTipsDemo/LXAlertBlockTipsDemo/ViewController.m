@@ -13,6 +13,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) LXAlertBlockTips *alert;
+
 @end
 
 @implementation ViewController
@@ -21,10 +23,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    LXAlertBlockTips *alert = [[LXAlertBlockTips alloc]init];
-    [alert configWithTitle:@"提示" ClickTitles:@[@"取消",@"确定"] Message:@"我的示例弹窗" ClickAction:nil];
+    _alert = [[LXAlertBlockTips alloc]init];
+    [_alert configWithTitle:@"提示" ClickTitles:@[@"第一个按钮",@"第二个按钮",@"第三个按钮",@"第四个按钮"] Message:@"我的示例弹窗" ClickAction:nil];
+    _alert.clickStyleBlock = ^(UIButton *deepButton, NSInteger index) {
+        
+        [deepButton setBackgroundColor:[UIColor redColor]];
+    };
     
-    [alert show];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    [_alert show];
 }
 
 

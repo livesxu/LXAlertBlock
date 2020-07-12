@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5613FFD921421E2C0076713E /* LXAlertBlockTips+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 5613FFD821421E2C0076713E /* LXAlertBlockTips+Config.m */; };
 		567475A521412D0C00A6EF2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 567475A421412D0C00A6EF2D /* AppDelegate.m */; };
 		567475A821412D0C00A6EF2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567475A721412D0C00A6EF2D /* ViewController.m */; };
 		567475AB21412D0C00A6EF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567475A921412D0C00A6EF2D /* Main.storyboard */; };
@@ -17,7 +16,6 @@
 		567475BD21412D0D00A6EF2D /* LXAlertBlockTipsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567475BC21412D0D00A6EF2D /* LXAlertBlockTipsDemoTests.m */; };
 		567475C821412D0D00A6EF2D /* LXAlertBlockTipsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567475C721412D0D00A6EF2D /* LXAlertBlockTipsDemoUITests.m */; };
 		567475D921412DEF00A6EF2D /* LXAlertBlockTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 567475D621412DEF00A6EF2D /* LXAlertBlockTips.m */; };
-		567475DC214139FC00A6EF2D /* alert_close_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 567475DB214139FC00A6EF2D /* alert_close_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5613FFD721421E2C0076713E /* LXAlertBlockTips+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXAlertBlockTips+Config.h"; sourceTree = "<group>"; };
-		5613FFD821421E2C0076713E /* LXAlertBlockTips+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LXAlertBlockTips+Config.m"; sourceTree = "<group>"; };
 		567475A021412D0C00A6EF2D /* LXAlertBlockTipsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXAlertBlockTipsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567475A321412D0C00A6EF2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		567475A421412D0C00A6EF2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,7 +54,6 @@
 		567475C921412D0D00A6EF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		567475D621412DEF00A6EF2D /* LXAlertBlockTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXAlertBlockTips.m; sourceTree = "<group>"; };
 		567475D821412DEF00A6EF2D /* LXAlertBlockTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXAlertBlockTips.h; sourceTree = "<group>"; };
-		567475DB214139FC00A6EF2D /* alert_close_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_close_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +106,10 @@
 			children = (
 				567475D821412DEF00A6EF2D /* LXAlertBlockTips.h */,
 				567475D621412DEF00A6EF2D /* LXAlertBlockTips.m */,
-				567475DB214139FC00A6EF2D /* alert_close_icon.png */,
 				567475A321412D0C00A6EF2D /* AppDelegate.h */,
 				567475A421412D0C00A6EF2D /* AppDelegate.m */,
 				567475A621412D0C00A6EF2D /* ViewController.h */,
 				567475A721412D0C00A6EF2D /* ViewController.m */,
-				5613FFD721421E2C0076713E /* LXAlertBlockTips+Config.h */,
-				5613FFD821421E2C0076713E /* LXAlertBlockTips+Config.m */,
 				567475A921412D0C00A6EF2D /* Main.storyboard */,
 				567475AC21412D0D00A6EF2D /* Assets.xcassets */,
 				567475AE21412D0D00A6EF2D /* LaunchScreen.storyboard */,
@@ -248,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567475DC214139FC00A6EF2D /* alert_close_icon.png in Resources */,
 				567475B021412D0D00A6EF2D /* LaunchScreen.storyboard in Resources */,
 				567475AD21412D0D00A6EF2D /* Assets.xcassets in Resources */,
 				567475AB21412D0C00A6EF2D /* Main.storyboard in Resources */,
@@ -277,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				567475A821412D0C00A6EF2D /* ViewController.m in Sources */,
-				5613FFD921421E2C0076713E /* LXAlertBlockTips+Config.m in Sources */,
 				567475B321412D0D00A6EF2D /* main.m in Sources */,
 				567475D921412DEF00A6EF2D /* LXAlertBlockTips.m in Sources */,
 				567475A521412D0C00A6EF2D /* AppDelegate.m in Sources */,
